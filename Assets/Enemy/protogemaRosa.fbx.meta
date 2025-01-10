@@ -8,8 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Symbiote With Aura Power
-    second: {fileID: 4874126678125670354, guid: db18c6f828f8119419371a5c36a65758,
-      type: 3}
+    second: {fileID: 2100000, guid: ae99f67db926f99498ca97927bd47cae, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

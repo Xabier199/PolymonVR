@@ -36,7 +36,7 @@ public class FPSController : MonoBehaviour
         HandleMovement();
         HandleJumping();
         HandleRotation();
-        HandleViewSwitch();
+
     }
 
     void HandleMovement()
@@ -74,22 +74,6 @@ public class FPSController : MonoBehaviour
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
-        }
-    }
-
-    void HandleViewSwitch()
-    {
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            isThirdPerson = !isThirdPerson;
-            if (isThirdPerson)
-            {
-                playerCamera.transform.localPosition += thirdPersonOffset;
-            }
-            else
-            {
-                playerCamera.transform.localPosition -= thirdPersonOffset;
-            }
         }
     }
 }

@@ -23,5 +23,11 @@ public class MenuManager : MonoBehaviour
         MenuPrincipal.SetActive(true);
         MenuOpciones.SetActive(false);
     }
+
+    public void SalirDelJuego()
+    {
+        Application.Quit();
+    }
 }
+
 

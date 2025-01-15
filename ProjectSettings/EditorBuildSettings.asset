@@ -8,12 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Titulopruebas.unity
     guid: d5374aa507dac744f947eb6de6141264
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
     path: Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost with snow.unity
     guid: e8cf1d29775c7e24f9dd35148a6437c0
+  - enabled: 0
+    path: Assets/Scenes/aaaaa.unity
+    guid: 9fda09163d9ab9d44a81638bf679da90
+  - enabled: 0
+    path: Assets/Scenes/Opciones.unity
+    guid: fa6022e71e1e20d48b70b3a33c5b3a82
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 22645272eb9d12f42ab176ae8aa6a159,
       type: 2}

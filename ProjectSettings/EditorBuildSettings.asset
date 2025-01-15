@@ -6,10 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Logo.unity
+    guid: 9b77c37332ab4df4db82f873fd3363b9
+  - enabled: 1
     path: Assets/Scenes/Titulopruebas.unity
     guid: d5374aa507dac744f947eb6de6141264
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Juego.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
     path: Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost with snow.unity

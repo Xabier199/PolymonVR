@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    public Transform waypointCombate; // Waypoint para la nueva posición
+    public Vector3 newScale; // Nuevo tamaño a aplicar
 
     // Start is called before the first frame update
     void Start()
@@ -19,10 +21,20 @@ public class EnemyController : MonoBehaviour
 
     public void OnRaycastHit()
     {
-        Debug.Log("Enemigo destruido");
-        Destroy(gameObject);
+        if (waypointCombate != null)
+        {
+            Debug.Log("Cambiando posición y tamaño del Enemigo");
+            transform.position = waypointCombate.position;
+            transform.localScale = newScale;
+        }
+        else
+        {
+            Debug.Log("waypoint es null");
+        }
     }
 }
+
+
 
 
 /*using System.Collections;

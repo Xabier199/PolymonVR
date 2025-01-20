@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
@@ -27,6 +28,11 @@ public class MenuManager : MonoBehaviour
     public void SalirDelJuego()
     {
         Application.Quit();
+    }
+
+    public void CargarJuego()
+    {
+        SceneManager.LoadScene("Cargando");
     }
 }
 

@@ -15,6 +15,8 @@ public class raygun : MonoBehaviour
     public AudioClip shootingAudioClip;
     public AudioClip hitAudioClip;
     public GameObject shootHitbox;
+    public GameObject playerPrefab; // Prefab del jugador
+    public Transform waypoint; // Waypoint para la nueva posición
 
     void Update()
     {
@@ -36,7 +38,6 @@ public class raygun : MonoBehaviour
         if (hasHit)
         {
             endPoint = hit.point;
-
             Quaternion rayImpactRotation = Quaternion.LookRotation(-hit.normal);
             GameObject rayImpact = Instantiate(rayImpactPrefab, hit.point, rayImpactRotation);
             Destroy(rayImpact, 1);
@@ -47,6 +48,21 @@ public class raygun : MonoBehaviour
             {
                 source.PlayOneShot(hitAudioClip);
                 enemy.OnRaycastHit();
+
+                // Instanciar el prefab del jugador en el waypoint
+                if (playerPrefab != null && waypoint != null)
+                {
+                    Debug.Log("Instanciando el prefab del jugador en el waypoint");
+                    Instantiate(playerPrefab, waypoint.position, waypoint.rotation);
+                    Destroy(gameObject);
+                }
+                else
+                {
+                    if (playerPrefab == null)
+                        Debug.Log("playerPrefab es null");
+                    if (waypoint == null)
+                        Debug.Log("waypoint es null");
+                }
             }
         }
         else
@@ -58,10 +74,19 @@ public class raygun : MonoBehaviour
         line.positionCount = 2;
         line.SetPosition(0, shootingpoint.position);
         line.SetPosition(1, endPoint);
-
         Destroy(line.gameObject, lineShowTimer);
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

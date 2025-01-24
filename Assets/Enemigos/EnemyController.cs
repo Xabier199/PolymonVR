@@ -6,6 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     public Transform waypointCombate; // Waypoint para la nueva posición
     public Vector3 newScale; // Nuevo tamaño a aplicar
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,10 @@ public class EnemyController : MonoBehaviour
     {
 
     }
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     public void OnRaycastHit()
     {
@@ -26,6 +31,7 @@ public class EnemyController : MonoBehaviour
             Debug.Log("Cambiando posición y tamaño del Enemigo");
             transform.position = waypointCombate.position;
             transform.localScale = newScale;
+            audioSource.Play();
         }
         else
         {

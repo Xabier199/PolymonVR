@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class raygun : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class raygun : MonoBehaviour
     public AudioClip shootingAudioClip;
     public AudioClip hitAudioClip;
     public GameObject shootHitbox;
+    public GameObject jugadorayudapofavoh;
     public GameObject playerPrefab; // Prefab del jugador
     public Transform waypoint; // Waypoint para la nueva posición
 
@@ -52,9 +54,13 @@ public class raygun : MonoBehaviour
                 // Instanciar el prefab del jugador en el waypoint
                 if (playerPrefab != null && waypoint != null)
                 {
+                    
                     Debug.Log("Instanciando el prefab del jugador en el waypoint");
                     Instantiate(playerPrefab, waypoint.position, waypoint.rotation);
-                    Destroy(gameObject);
+                    SceneManager.LoadScene("Cargando Combate");
+                    GameObject.Destroy(jugadorayudapofavoh);
+
+
                 }
                 else
                 {

@@ -22,7 +22,6 @@ public class Perseguir : MonoBehaviour
         if (distanceToPlayer <= detectionRange)
         {
             isChasing = true;
-            agent.SetDestination(player.position);
         }
         else if (isChasing && distanceToPlayer > detectionRange * 1.5f)
         {

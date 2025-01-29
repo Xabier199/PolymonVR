@@ -1,14 +1,14 @@
 using System.Collections;
 using UnityEngine;
 
-public class Patrullar : MonoBehaviour
+public class Patrullar2 : MonoBehaviour
 {
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private float distanciaMinima;
     [SerializeField] private float distanciaPersecucion; // Distancia para empezar a seguir al jugador
     [SerializeField] private float distanciaSeguridad; // Distancia mínima para mantener con el jugador
     [SerializeField] private float velocidadRotacion;
-    [SerializeField] private string waypointTag = "Waypoint"; // Etiqueta de los waypoints en la escena, configúralo en el Inspector.
+    [SerializeField] private string waypointTag = "Waypoint2"; // Etiqueta de los waypoints en la escena, configúralo en el Inspector.
     [SerializeField] private AudioClip sonidoSeguimiento; // Sonido a reproducir al seguir al jugador
 
     private Transform[] puntosMovimiento;
@@ -119,14 +119,14 @@ public class Patrullar : MonoBehaviour
 /*using System.Collections;
 using UnityEngine;
 
-public class Patrullar : MonoBehaviour
+public class Patrullar2 : MonoBehaviour
 {
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private float distanciaMinima;
     [SerializeField] private float distanciaPersecucion; // Distancia para empezar a seguir al jugador
     [SerializeField] private float distanciaSeguridad; // Distancia mínima para mantener con el jugador
     [SerializeField] private float velocidadRotacion;
-    [SerializeField] private string waypointTag = "Waypoint"; // Etiqueta de los waypoints en la escena, configúralo en el Inspector.
+    [SerializeField] private string waypointTag = "Waypoint2"; // Etiqueta de los waypoints en la escena, configúralo en el Inspector.
 
     private Transform[] puntosMovimiento;
     private int numeroAleatorio;

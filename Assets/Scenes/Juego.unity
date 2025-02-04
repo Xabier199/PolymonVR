@@ -12250,6 +12250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2554087640000413986, guid: 317f8eb323c5f3e4c87242bcb37e4832,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2554087640000413986, guid: 317f8eb323c5f3e4c87242bcb37e4832,
+        type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
@@ -12281,6 +12286,11 @@ PrefabInstance:
     - target: {fileID: 2678737795689865919, guid: 317f8eb323c5f3e4c87242bcb37e4832,
         type: 3}
       propertyPath: EnableLinearMovement
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970425364522459264, guid: 317f8eb323c5f3e4c87242bcb37e4832,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3681729239285006539, guid: 317f8eb323c5f3e4c87242bcb37e4832,
@@ -12366,12 +12376,12 @@ PrefabInstance:
     - target: {fileID: 3713275304282130436, guid: 317f8eb323c5f3e4c87242bcb37e4832,
         type: 3}
       propertyPath: enableMixedReality
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3713275304282130436, guid: 317f8eb323c5f3e4c87242bcb37e4832,
         type: 3}
       propertyPath: isInsightPassthroughEnabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3713275304282130436, guid: 317f8eb323c5f3e4c87242bcb37e4832,
         type: 3}
@@ -20858,7 +20868,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1560776189
 MonoBehaviour:
   m_ObjectHideFlags: 0

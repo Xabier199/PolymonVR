@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeactivateAndActivate : MonoBehaviour
 {
     public GameObject target; // El objeto que se va a desactivar y luego activar
-    public float delay = 3.0f; // El tiempo en segundos antes de activar el objeto nuevamente
+    public float delay = 5.0f; // El tiempo en segundos antes de activar el objeto nuevamente
 
     void Start()
     {

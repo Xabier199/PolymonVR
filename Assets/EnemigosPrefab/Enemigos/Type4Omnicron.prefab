@@ -50,11 +50,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadMovimiento: 3
   distanciaMinima: 0.5
-  distanciaPersecucion: 20
+  distanciaPersecucion: 10
   distanciaSeguridad: 5
   velocidadRotacion: 2
   waypointTag: Waypoint
-  sonidoSeguimiento: {fileID: 0}
+  sonidoSeguimiento: {fileID: 8300000, guid: 53db0c2069a116840a7b49bc79ad959e, type: 3}
 --- !u!82 &7364480299929105870
 AudioSource:
   m_ObjectHideFlags: 0
@@ -66,8 +66,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 53db0c2069a116840a7b49bc79ad959e, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Resource: {fileID: 8300000, guid: 53db0c2069a116840a7b49bc79ad959e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -164,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 8667173408155091769}
-  maxHealth: 100
+  maxHealth: 150
   objectToDestroy: {fileID: 8572465208061603690}
   healthInterface: {fileID: 3063989948270643448}
   newObjectPrefab: {fileID: 0}
@@ -305,7 +306,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &8882387439344905745
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -319,6 +320,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1

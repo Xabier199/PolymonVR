@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7714185370476574449}
   m_Layer: 0
   m_Name: Type2Bitewave
-  m_TagString: Untagged
+  m_TagString: BiteWave
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

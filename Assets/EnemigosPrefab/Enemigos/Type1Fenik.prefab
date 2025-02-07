@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5090429319672072917}
   m_Layer: 0
   m_Name: Type1Fenik
-  m_TagString: Untagged
+  m_TagString: Fenik
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

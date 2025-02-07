@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5495656996339666683}
   m_Layer: 0
   m_Name: Type1Vetes
-  m_TagString: Untagged
+  m_TagString: Vetes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

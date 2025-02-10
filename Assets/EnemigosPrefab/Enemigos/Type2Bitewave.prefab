@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7504872023440732815}
   - component: {fileID: 3127435706356062107}
   - component: {fileID: 7714185370476574449}
+  - component: {fileID: 4077347141030639500}
   m_Layer: 0
   m_Name: Type2Bitewave
   m_TagString: BiteWave
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4527768664124083706}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b73711272b5f4946974ab257e55c2e8, type: 3}
   m_Name: 
@@ -206,6 +207,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 7537179474052758197}
   delay: 5
+--- !u!114 &4077347141030639500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4527768664124083706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d372a0d2ad28f439616cad6b6794b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptToActivate: {fileID: 5407930395189968268}
+  delay: 8
 --- !u!1001 &2781840346371095703
 PrefabInstance:
   m_ObjectHideFlags: 0

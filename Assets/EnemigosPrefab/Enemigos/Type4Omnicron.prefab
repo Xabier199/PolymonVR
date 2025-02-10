@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4664255346422292723}
   - component: {fileID: 163472852580251603}
   - component: {fileID: 780668494283826838}
+  - component: {fileID: 1157784074892881003}
   m_Layer: 0
   m_Name: Type4Omnicron
   m_TagString: Omnicron
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8572465208061603690}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b73711272b5f4946974ab257e55c2e8, type: 3}
   m_Name: 
@@ -206,6 +207,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 9120922447412300904}
   delay: 5
+--- !u!114 &1157784074892881003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8572465208061603690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d372a0d2ad28f439616cad6b6794b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptToActivate: {fileID: 3972164388967292033}
+  delay: 8
 --- !u!1001 &5697450317959297429
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7696048793668422858}
   - component: {fileID: 8039503246077931235}
   - component: {fileID: 1139750727781461312}
+  - component: {fileID: 2025230873712237820}
   m_Layer: 0
   m_Name: Type2Kalyrix
   m_TagString: Kalyrix
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4094676402334462759}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b73711272b5f4946974ab257e55c2e8, type: 3}
   m_Name: 
@@ -206,6 +207,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1157562950110080234}
   delay: 5
+--- !u!114 &2025230873712237820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4094676402334462759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d372a0d2ad28f439616cad6b6794b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptToActivate: {fileID: 1971498320208866241}
+  delay: 8
 --- !u!1001 &55258074279853222
 PrefabInstance:
   m_ObjectHideFlags: 0

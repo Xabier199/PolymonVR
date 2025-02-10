@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4409531864464467603}
   - component: {fileID: 4492418146398098498}
   - component: {fileID: 6837017699698040650}
+  - component: {fileID: 7890910290195769765}
   m_Layer: 0
   m_Name: Type2Rox
   m_TagString: Rox
@@ -142,7 +143,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6944310360173041347}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2aab52dd86cbba841b2a8e7d0f212d1d, type: 3}
   m_Name: 
@@ -206,6 +207,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2346868793146299504}
   delay: 5
+--- !u!114 &7890910290195769765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6944310360173041347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d372a0d2ad28f439616cad6b6794b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptToActivate: {fileID: 8754853541339459829}
+  delay: 8
 --- !u!1001 &3193238409776884001
 PrefabInstance:
   m_ObjectHideFlags: 0

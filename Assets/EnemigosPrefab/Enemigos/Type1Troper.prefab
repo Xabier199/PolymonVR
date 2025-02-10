@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1372503641392951195}
   - component: {fileID: 5817870903125538050}
   - component: {fileID: 8602478653249170360}
+  - component: {fileID: 6971156921205802008}
   m_Layer: 0
   m_Name: Type1Troper
   m_TagString: Troper
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7093870260882409492}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b73711272b5f4946974ab257e55c2e8, type: 3}
   m_Name: 
@@ -206,6 +207,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2648485702118618110}
   delay: 5
+--- !u!114 &6971156921205802008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7093870260882409492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d372a0d2ad28f439616cad6b6794b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptToActivate: {fileID: 6163325098969296648}
+  delay: 8
 --- !u!1001 &2015754017068892052
 PrefabInstance:
   m_ObjectHideFlags: 0

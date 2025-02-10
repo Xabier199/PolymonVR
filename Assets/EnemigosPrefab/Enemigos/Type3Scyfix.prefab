@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 6455576456748107078}
   - component: {fileID: 2393682292092584509}
   - component: {fileID: 5304923573621863185}
+  - component: {fileID: 4978633004708780182}
   m_Layer: 0
   m_Name: Type3Scyfix
   m_TagString: Scyfix
@@ -147,7 +148,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047996898091921457}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b73711272b5f4946974ab257e55c2e8, type: 3}
   m_Name: 
@@ -308,6 +309,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 3317039708140544393}
   delay: 5
+--- !u!114 &4978633004708780182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047996898091921457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d372a0d2ad28f439616cad6b6794b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptToActivate: {fileID: 4625956971815249940}
+  delay: 8
 --- !u!1 &9207865525517058140
 GameObject:
   m_ObjectHideFlags: 0

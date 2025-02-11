@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8039503246077931235}
   - component: {fileID: 1139750727781461312}
   - component: {fileID: 2025230873712237820}
+  - component: {fileID: 6905909678824871267}
   m_Layer: 0
   m_Name: Type2Kalyrix
   m_TagString: Kalyrix
@@ -37,6 +38,7 @@ Transform:
   m_Children:
   - {fileID: 1971360517415417424}
   - {fileID: 1308317573626348711}
+  - {fileID: 3394676987523078856}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1971498320208866241
@@ -221,6 +223,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scriptToActivate: {fileID: 1971498320208866241}
   delay: 8
+--- !u!114 &6905909678824871267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4094676402334462759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fc8309cb9b97242a2dbf2b047206c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3319320141823239848, guid: 79cd5840944acbe48a364aa5d87087cd,
+    type: 3}
+  bulletSpawnPoint: {fileID: 3394676987523078856}
+  shootingInterval: 5
+  shootingRange: 15
+  bulletSpeed: 8
+--- !u!1 &7643787476904479298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3394676987523078856}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3394676987523078856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7643787476904479298}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.13227624, y: 2.791, z: 1.089}
+  m_LocalScale: {x: 1.3554567, y: 1.3554567, z: 1.3554567}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2088661460516178621}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &55258074279853222
 PrefabInstance:
   m_ObjectHideFlags: 0

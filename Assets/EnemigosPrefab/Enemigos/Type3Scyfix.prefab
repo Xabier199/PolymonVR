@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &182599275765448303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2034592710644184402}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2034592710644184402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182599275765448303}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.014, y: 2.407, z: 1.497}
+  m_LocalScale: {x: 1.7257059, y: 1.7257059, z: 1.7257059}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9119061156516056102}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &510834284405497555
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,6 +148,7 @@ GameObject:
   - component: {fileID: 2393682292092584509}
   - component: {fileID: 5304923573621863185}
   - component: {fileID: 4978633004708780182}
+  - component: {fileID: 5618738744194345031}
   m_Layer: 0
   m_Name: Type3Scyfix
   m_TagString: Scyfix
@@ -139,6 +171,7 @@ Transform:
   m_Children:
   - {fileID: 2685181834574527283}
   - {fileID: 4250667080071628812}
+  - {fileID: 2034592710644184402}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4625956971815249940
@@ -323,6 +356,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scriptToActivate: {fileID: 4625956971815249940}
   delay: 8
+--- !u!114 &5618738744194345031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047996898091921457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fc8309cb9b97242a2dbf2b047206c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3319320141823239848, guid: 79cd5840944acbe48a364aa5d87087cd,
+    type: 3}
+  bulletSpawnPoint: {fileID: 2034592710644184402}
+  shootingInterval: 3
+  shootingRange: 12
+  bulletSpeed: 8
 --- !u!1 &9207865525517058140
 GameObject:
   m_ObjectHideFlags: 0

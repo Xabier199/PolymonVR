@@ -239,8 +239,8 @@ MonoBehaviour:
     type: 3}
   bulletSpawnPoint: {fileID: 6790350029660120586}
   shootingInterval: 2
-  shootingRange: 15
-  bulletSpeed: 10
+  shootingRange: 12
+  bulletSpeed: 6
 --- !u!1 &1777555691977386517
 GameObject:
   m_ObjectHideFlags: 0

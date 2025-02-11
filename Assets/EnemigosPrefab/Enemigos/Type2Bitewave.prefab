@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3127435706356062107}
   - component: {fileID: 7714185370476574449}
   - component: {fileID: 4077347141030639500}
+  - component: {fileID: 1372304964465042312}
   m_Layer: 0
   m_Name: Type2Bitewave
   m_TagString: BiteWave
@@ -37,6 +38,7 @@ Transform:
   m_Children:
   - {fileID: 7192987892765417487}
   - {fileID: 6141725640883141825}
+  - {fileID: 5462996273505008329}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5407930395189968268
@@ -221,6 +223,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scriptToActivate: {fileID: 5407930395189968268}
   delay: 8
+--- !u!114 &1372304964465042312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4527768664124083706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fc8309cb9b97242a2dbf2b047206c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3319320141823239848, guid: 79cd5840944acbe48a364aa5d87087cd,
+    type: 3}
+  bulletSpawnPoint: {fileID: 5462996273505008329}
+  shootingInterval: 1
+  shootingRange: 12
+  bulletSpeed: 10
+--- !u!1 &5331922507051471634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5462996273505008329}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5462996273505008329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5331922507051471634}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.046, y: 0.904, z: 1.103}
+  m_LocalScale: {x: 1.4868338, y: 1.4868338, z: 1.4868338}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6009757650011933647}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2781840346371095703
 PrefabInstance:
   m_ObjectHideFlags: 0

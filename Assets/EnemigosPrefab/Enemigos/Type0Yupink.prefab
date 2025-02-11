@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8846301061292534697}
   - component: {fileID: 3390667463216823109}
   - component: {fileID: 4744018265288664138}
+  - component: {fileID: 5502907138272009213}
   m_Layer: 0
   m_Name: Type0Yupink
   m_TagString: Yupink
@@ -37,6 +38,7 @@ Transform:
   m_Children:
   - {fileID: 6562646322526312183}
   - {fileID: 5058101989274718864}
+  - {fileID: 5597027355336925809}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6408272574608963018
@@ -221,6 +223,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scriptToActivate: {fileID: 6408272574608963018}
   delay: 8
+--- !u!114 &5502907138272009213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5372729824824158618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fc8309cb9b97242a2dbf2b047206c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3319320141823239848, guid: 79cd5840944acbe48a364aa5d87087cd,
+    type: 3}
+  bulletSpawnPoint: {fileID: 5597027355336925809}
+  shootingInterval: 4
+  shootingRange: 12
+  bulletSpeed: 4
+--- !u!1 &8341150516733651884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5597027355336925809}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5597027355336925809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8341150516733651884}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9990945, z: -0, w: -0.042546045}
+  m_LocalPosition: {x: -0.095, y: 1.113, z: 1.854}
+  m_LocalScale: {x: 1.8689831, y: 1.8689831, z: 1.8689831}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3667303021311673497}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6672519844330025244
 PrefabInstance:
   m_ObjectHideFlags: 0
